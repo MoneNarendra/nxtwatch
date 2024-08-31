@@ -1,0 +1,150 @@
+.home-main-container {
+  min-height: 100vh;
+}
+
+.home-container {
+  display: flex;
+  width: 100%;
+}
+
+.content-container {
+  width: 100%;
+}
+
+.search-image {
+  height: 20px;
+}
+
+.videos-container {
+  overflow-y: scroll;
+  height: 50vh;
+  list-style-type: none;
+  padding-left: 0px;
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+
+@media (min-width: 768px) {
+  .videos-container {
+    /* justify-content: flex-start;
+    height: 60vh; */
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+
+/* .video-item {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 20px;
+} */
+
+@media (min-width: 768px) {
+  .video-item {
+    margin: 10px;
+    width: 260px;
+  }
+
+  /* .videos-container > *:not(:last-child) {
+    margin-right: 10px;
+  } */
+}
+
+/* @media (min-width: 1025px) {
+  .video-item {
+    width: 290px;
+  }
+} */
+
+.video-thumbnail {
+  width: 100%;
+  /* height: 70%; */
+  height: 150px;
+}
+
+.video-bottom-container {
+  display: flex;
+  align-items: flex-start;
+  height: 70px;
+}
+
+.channel-img {
+  height: 30px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.home-video-name {
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+
+.text-container-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* .video-bottom-text {
+  margin-top: 0px;
+  color: #ffffff;
+} */
+
+.video-details-text {
+  margin-top: 0px;
+  font-family: 'Roboto';
+  font-size: 10px;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+}
+
+.failed-img {
+  height: 200px;
+  max-height: 300px;
+}
+
+.error-heading {
+  font-family: 'Roboto';
+  font-size: 18px;
+  margin: 3px;
+  font-weight: 500;
+}
+
+.error-dic {
+  color: #496ca2;
+  font-family: 'Roboto';
+  font-size: 13px;
+  text-align: center;
+  margin: 5px;
+}
+
+.error-btn {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #ffff;
+  border-width: 0px;
+  border-radius: 5px;
+  background-color: #4a47e0;
+  padding: 8px;
+  width: 100px;
+  margin-top: 10px;
+}
+
+.link-ele {
+  text-decoration: none;
+  color: #000000;
+}

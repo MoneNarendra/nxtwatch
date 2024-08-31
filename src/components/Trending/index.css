@@ -1,0 +1,149 @@
+.trending-main-container {
+  min-height: 100vh;
+}
+
+.trending-container {
+  display: flex;
+  width: 100%;
+}
+
+.trending-top-section {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  width: 100%;
+  height: 10vh;
+  padding-left: 30px;
+}
+
+.trending-img {
+  height: 40px;
+  margin-right: 20px;
+}
+
+.trending-heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.trending-videos-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.each-video-item {
+  width: 100%;
+  padding: 10px;
+  height: 250px;
+}
+
+@media (min-width: 576px) {
+  .each-video-item {
+    display: flex;
+    width: 100%;
+  }
+}
+
+.thumbnail-img {
+  width: 100%;
+  height: 160px;
+}
+
+@media (min-width: 576px) {
+  .thumbnail-img {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .thumbnail-img {
+    width: 30%;
+  }
+}
+
+.video-bottom-container {
+  padding-top: 0px;
+}
+
+.channel-img {
+  height: 40px;
+}
+
+@media (min-width: 576px) {
+  .channel-img {
+    display: none;
+  }
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 576px) {
+  .text-container {
+    margin-left: 10px;
+  }
+}
+
+.each-video-name {
+  font-family: 'Roboto';
+  font-size: 13px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+@media (min-width: 576px) {
+  .channel-name {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .bottom-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+
+.bottom-text-container {
+  margin-top: 0px;
+  padding-top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px;
+  width: 70%;
+}
+
+@media (min-width: 576px) {
+  .bottom-text-container {
+    margin-left: 10px;
+    width: 48%;
+  }
+}
+
+.bottom-text {
+  font-family: 'Roboto';
+  font-size: 11px;
+  list-style-type: none;
+}
+
+.content-container {
+  height: 90vh;
+  overflow-y: scroll;
+}
+
+.loading-container {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}

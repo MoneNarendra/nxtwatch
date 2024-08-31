@@ -1,0 +1,150 @@
+.nav-inner-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav-logo {
+  height: 30px;
+}
+
+.sm-nav-left-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sm-icons {
+  font-size: 26px;
+}
+
+@media (min-width: 767px) {
+  .sm-nav-left-container {
+    display: none;
+  }
+}
+
+.profile-img {
+  height: 35px;
+}
+
+.lg-nav-left-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+}
+
+@media (max-width: 767px) {
+  .lg-nav-left-container {
+    display: none;
+  }
+}
+
+.logout-btn {
+  border: 2px solid #4f46e5;
+  font-family: 'Roboto';
+  font-size: 15px;
+  background-color: transparent;
+  color: #4f46e5;
+  width: 85px;
+  height: 30px;
+}
+
+@media (min-width: 1024px) {
+  .lg-nav-left-container {
+    width: 20%;
+  }
+}
+
+.lg-icons {
+  font-size: 26px;
+  margin-top: 10px;
+}
+
+.light-icon {
+  color: #ffffff;
+}
+
+.mode-btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.popup-content {
+  background-color: transparent;
+  padding: 0px;
+  border-width: 0px;
+  width: 230px;
+  height: 150px;
+}
+
+@media (min-width: 767px) {
+  .popup-content {
+    width: 250px;
+    height: 180px;
+  }
+}
+
+.overlay-style {
+  min-height: 100vh;
+}
+
+.popup-menu-content {
+  /* min-height: 100vh; */
+  height: 100%;
+}
+
+.sm-menu-container {
+  min-height: 100vh;
+  background-color: red;
+  padding: 100px;
+}
+
+.close-container {
+  flex-direction:;
+}
+
+.popup-content-sm {
+  margin: auto;
+  min-height: 100vh;
+  width: 100%;
+}
+.popup-arrow {
+  color: rgb(255, 255, 255);
+}
+/* [role='tooltip'].popup-content {
+  width: 90%;
+} */
+
+.sm-inner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sm-close-container {
+  padding-top: 30px;
+  min-height: 10vh;
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sm-menu-container {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.close-btn {
+  height: 30px;
+  background-color: transparent;
+  border-width: 0px;
+  font-weight: bold;
+  font-size: 20px;
+}

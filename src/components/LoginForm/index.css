@@ -1,0 +1,36 @@
+.log-img {
+  height: 30px;
+}
+
+.form-container {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.checkbox-ele {
+  width: 13px;
+  height: 13px;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 8px;
+  border-width: 0px;
+  background-color: #2082f2;
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.error-msg {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #ff0b37;
+}

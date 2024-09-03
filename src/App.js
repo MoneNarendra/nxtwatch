@@ -64,18 +64,18 @@ class App extends Component {
         }}
       >
         <Switch>
-          <Route path="/login" component={LoginForm} />
-          <ProtectedRoute exact path="/" component={Home} />
-          <ProtectedRoute exact path="/trending" component={Trending} />
-          <ProtectedRoute exact path="/gaming" component={Gaming} />
-          <ProtectedRoute exact path="/saved-videos" component={SavedVideos} />
+          <Route path='/login' component={LoginForm} />
+          <ProtectedRoute exact path='/' component={Home} />
+          <ProtectedRoute exact path='/trending' component={Trending} />
+          <ProtectedRoute exact path='/gaming' component={Gaming} />
+          <ProtectedRoute exact path='/saved-videos' component={SavedVideos} />
           <ProtectedRoute
             exact
-            path="/videos/:id"
+            path='/videos/:id'
             component={VideoItemDetails}
           />
-          <Route path="/not-found" component={NotFound} />
-          <Redirect to="/not-found" />
+          <Route path='/not-found' component={NotFound} />
+          <Redirect to='/not-found' />
         </Switch>
       </NxtWatchContext.Provider>
     )
